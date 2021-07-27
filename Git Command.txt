@@ -1,0 +1,30 @@
+############## Git Command ########################
+1) Git help config 
+2) mkdir <filename>
+3) cd <filename>
+4) git init  #.git gets created
+5) git status
+6) git add <filename> or git add .
+7) git commit –m “message”
+8) git config --global user.name "<github account name>"
+9) git config --global user.email <github email address>
+10) git config --list
+11) git remote add origin https://................
+12) git remote -v
+13) Git push -u origin master
+14) git log  ## commit details ####
+15) ssh-keygen -t rsa -C <emailaddress>
+16) ssh -T git@github.com
+17 ) git clone server_repo_URL
+18) git log --pretty=oneline
+18 ) git reset --soft <commit-id>
+# will undo the commit to the previous commit and this can be done only before it has been pushed to the remote repo server ( rewriting history )
+19 ) git revert <commit id> 
+# safest way to undo a commit , by added a new commit which does the necessary changes to older commit.this can be used even after commit is pushed to remote repo
+20) git branch New_branch
+21) git checkout New_branch
+22) git push -u origin New_branch
+23) git branch -av
+24) git merger New_branch
+25) git branch -D New_branch
+26) git push origin -delete New_branch
